@@ -1,5 +1,5 @@
 {
-  "name": "superset-swagger-ts",
+  "name": "superset-swagger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uniiverse/superset-swagger-ts.git"
+    "url": "git+https://github.com/uniiverse/superset-swagger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uniiverse/superset-swagger-ts/issues"
+    "url": "https://github.com/uniiverse/superset-swagger/issues"
   },
-  "homepage": "https://github.com/uniiverse/superset-swagger-ts#readme",
-  "devDependencies": {
-    "typescript": "^5.0.4"
-  }
+  "homepage": "https://github.com/uniiverse/superset-swagger#readme"
 }
