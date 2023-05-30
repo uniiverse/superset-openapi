@@ -1,6 +1,6 @@
 {
   "name": "superset",
-  "version": "v1",
+  "version": "v1.0.1",
   "description": "Superset",
   "license": "Unlicense",
   "main": "src/index.js",
