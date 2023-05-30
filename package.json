@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/uniiverse/superset-swagger-ts/issues"
   },
-  "homepage": "https://github.com/uniiverse/superset-swagger-ts#readme"
+  "homepage": "https://github.com/uniiverse/superset-swagger-ts#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
