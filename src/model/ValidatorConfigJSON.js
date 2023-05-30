@@ -81,7 +81,7 @@ ValidatorConfigJSON.OpEnum = {
    * value: "=="
    * @const
    */
-  : "==",
+  EQUAL: "==",
 
   /**
    * value: "!="

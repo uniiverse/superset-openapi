@@ -85,7 +85,7 @@ ChartDataFilter.OpEnum = {
    * value: "=="
    * @const
    */
-  : "==",
+  EQUAL: "==",
 
   /**
    * value: "!="
