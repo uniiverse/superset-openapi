@@ -1248,7 +1248,7 @@ export namespace ChartDataFilter {
      * @enum {string}
      */
     export enum OpEnum {
-         = <any> '==',
+        Equal = <any> '==',
         NotEqual = <any> '!=',
         GreaterThan = <any> '>',
         LessThan = <any> '<',
@@ -8479,7 +8479,7 @@ export interface GetListSchemaFilters {
      * @type {number | string | boolean | Array}
      * @memberof GetListSchemaFilters
      */
-    value: number | string | boolean | Array;
+    value: number | string | boolean | Array<any>;
 }
 /**
  * 
@@ -11636,12 +11636,6 @@ export interface QueryResult {
      * @memberof QueryResult
      */
     changedOn?: Date;
-    /**
-     * 
-     * @type {string}
-     * @memberof QueryResult
-     */
-    changedOn?: string;
     /**
      * 
      * @type {boolean}
@@ -16011,7 +16005,7 @@ export namespace ValidatorConfigJSON {
         LessThanOrEqualTo = <any> '<=',
         GreaterThan = <any> '>',
         GreaterThanOrEqualTo = <any> '>=',
-         = <any> '==',
+        Equal = <any> '==',
         NotEqual = <any> '!='
     }
 }
