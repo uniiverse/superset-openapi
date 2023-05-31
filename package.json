@@ -1,22 +1,26 @@
 {
-  "name": "superset-swagger-ts",
+  "name": "superset-swagger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uniiverse/superset-swagger-ts.git"
+    "url": "git+https://github.com/uniiverse/superset-swagger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uniiverse/superset-swagger-ts/issues"
+    "url": "https://github.com/uniiverse/superset-swagger/issues"
   },
-  "homepage": "https://github.com/uniiverse/superset-swagger-ts#readme",
+  "homepage": "https://github.com/uniiverse/superset-swagger#readme",
   "devDependencies": {
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
   }
 }
