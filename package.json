@@ -1,5 +1,5 @@
 {
-  "name": "superset-swagger",
+  "name": "superset-openapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uniiverse/superset-swagger.git"
+    "url": "git+https://github.com/uniiverse/superset-openapi.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uniiverse/superset-swagger/issues"
+    "url": "https://github.com/uniiverse/superset-openapi/issues"
   },
-  "homepage": "https://github.com/uniiverse/superset-swagger#readme",
+  "homepage": "https://github.com/uniiverse/superset-openapi#readme",
   "devDependencies": {
     "typescript": "^5.0.4"
   },
