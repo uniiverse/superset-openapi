@@ -27,7 +27,7 @@ export declare const COLLECTION_FORMATS: {
  * @interface FetchAPI
  */
 export interface FetchAPI {
-    (url: string, init?: any): Promise<Response>;
+    (input: RequestInfo | URL, init?: RequestInit): Promise<Response>;
 }
 /**
  *
